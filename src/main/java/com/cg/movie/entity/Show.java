@@ -16,6 +16,14 @@ import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+
+/****************************************************************************************************
+ *          @author          Naveen J
+ *          Description      It is an Entity class of Show and is mapped with the  DataBase
+ *                                       of table show_tbl.
+ *          @version         1.0
+ *          Created Date     05-AUG-2020
+ ****************************************************************************************************/
 @Entity
 @Table(name="show_tbl")
 public class Show {

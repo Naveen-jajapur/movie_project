@@ -13,6 +13,13 @@ import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+/****************************************************************************************************
+ *          @author          Naveen J
+ *          Description      It is an Entity class of Screen and is mapped with the  DataBase
+ *                                       of table screen_tbl.
+ *          @version         1.0
+ *          Created Date     05-AUG-2020
+ ****************************************************************************************************/
 @Entity
 @Table(name="screen_tbl")
 public class Screen {

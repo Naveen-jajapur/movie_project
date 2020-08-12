@@ -16,6 +16,13 @@ import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+/****************************************************************************************************
+ *          @author          Naveen J
+ *          Description      It is an Entity class of Theatre and is mapped with the  DataBase
+ *                                       of table THEATRE_TBL.
+ *          @version         1.0
+ *          Created Date     05-AUG-2020
+ ****************************************************************************************************/
 @Entity
 @Table(name="THEATRE_TBL")
 public class Theatre {

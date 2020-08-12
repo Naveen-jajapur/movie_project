@@ -10,6 +10,15 @@ import org.springframework.stereotype.Repository;
 import com.cg.movie.entity.Movie;
 
 
+/**************************************************************************************
+ *          @author           Naveen J
+ *          Description       It is a DAO ( Data Access Object) interface for the Movie
+ *          					@Repository is to indicate that the class is directly 
+ *          					linked with Database
+ *         
+ *          @version          1.0
+ *          Created Date      10-AUG-2020
+***************************************************************************************/
 @Repository
 public interface MovieDao extends JpaRepository<Movie, Integer>{
 	

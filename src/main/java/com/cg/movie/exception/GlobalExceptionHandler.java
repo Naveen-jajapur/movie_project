@@ -10,7 +10,16 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-
+/****************************************************************************************************
+ *          @author          Naveen J
+ *          Description       @ControllerAdvice : It is used to enable a single ExceptionHandler to be applied
+ *          					 to multiple controllers.
+ *          			      @ExceptionHandler : It uses Exception as argument and then all the exceptions thrown 
+ *          					 by our request handler method will have handled by it.
+ *                                       
+ *          @version         1.0
+ *          Created Date     05-AUG-2020
+ ****************************************************************************************************/
 
 @ControllerAdvice
 public class GlobalExceptionHandler {

@@ -8,6 +8,13 @@ import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
+/****************************************************************************************************
+ *          @author          Naveen J
+ *          Description      It is an Entity class of Seat and is mapped with the  DataBase
+ *                                       of table seat_tbl.
+ *          @version         1.0
+ *          Created Date     05-AUG-2020
+ ****************************************************************************************************/
 @Entity
 @Table(name="seat_tbl")
 public class Seat {

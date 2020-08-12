@@ -11,6 +11,14 @@ import com.cg.movie.entity.Movie;
 import com.cg.movie.entity.Theatre;
 import com.cg.movie.exception.TheatreException;
 
+/********************************************************************************************
+ *          @author          Naveen J
+ *          Description      It is a service Implementation class  and it interacts with
+ *          					Service Interface.
+ *          @Service is for to detect the class as a service provider.
+ *          @version         1.0
+ *          Created Date     05-AUG-2020
+ ********************************************************************************************/
 @Service
 public class TheatreServiceImplementation implements TheatreService{
 	

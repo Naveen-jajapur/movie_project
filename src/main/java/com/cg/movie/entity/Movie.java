@@ -8,6 +8,14 @@ import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
+/****************************************************************************************************
+ *          @author          Naveen J
+ *          Description      It is an Entity class of Movie and is mapped with the  DataBase
+ *                                       of table movie_table.
+ *          @version         1.0
+ *          Created Date     05-AUG-2020
+ ****************************************************************************************************/
+
 @Entity
 @Table(name="movie_table")
 public class Movie {
@@ -27,7 +35,7 @@ public class Movie {
 	private int movie_length;
 	@Column(name="MOVIERELEASEDATE")
 	private String releaseDate;
-//	private String[] languages;
+
 	public Movie(int movie_id, String movie_name, String movie_genre, String movie_director, int movie_length,
 			String releaseDate) {
 		super();
@@ -37,7 +45,7 @@ public class Movie {
 		this.movie_director = movie_director;
 		this.movie_length = movie_length;
 		this.releaseDate = releaseDate;
-//		this.languages = languages;
+
 	}
 	
 	public Movie() {
@@ -46,13 +54,7 @@ public class Movie {
 	public int getMovie_id() {
 		return movie_id;
 	}
-//	public String[] getLanguages() {
-//		return languages;
-//	}
-//
-//	public void setLanguages(String[] languages) {
-//		this.languages = languages;
-//	}
+
 
 	public void setMovie_id(int movie_id) {
 		this.movie_id = movie_id;

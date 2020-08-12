@@ -6,6 +6,14 @@ import com.cg.movie.entity.Movie;
 import com.cg.movie.entity.Theatre;
 import com.cg.movie.exception.TheatreException;
 
+/********************************************************************************************
+ *          @author          Naveen J
+ *          Description      It is a service interface that contains method declarations
+ *                                      which are implemented in BankServiceImpl.java
+ *          @version         1.0
+ *          Created Date     05-AUG-2020
+ ********************************************************************************************/
+
 public interface TheatreService {
 
 	public Theatre addTheatre(Theatre theatre)throws TheatreException;
